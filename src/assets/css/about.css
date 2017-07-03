@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:regular,bold,italic&subset=latin,latin-ext');
 
 body {
-  background: url('./shoes1.jpg');
+  background: url('../css/shoes1.jpg');
   width: 100%;
   height: 100%;
   background-position: center;

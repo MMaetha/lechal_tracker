@@ -20,6 +20,5 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "reactstrap": "^4.8.0"
   }
 }

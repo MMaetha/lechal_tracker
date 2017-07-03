@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import 'bootstrap/dist/css/bootstrap.css';
-import { Button } from 'reactstrap';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
-//import Chart from './graph';
+import { Router } from 'react-router';
+import routes from './routes';
+import App from './App/App';
 
-//ReactDOM.render(<Chart />, document.getElementById('root'));
+import './assets/css/index.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
+import registerServiceWorker from './registerServiceWorker';
+
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
-import './App.css';
+import '../assets/css/App.css';
 import Navbar from './Navbar.js';
+import Home from '../Home/home'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <div className="App-header">
-          <h1>LECHAL TRACKr</h1>
-        </div>
+        <Home />
       </div>
     );
   }
 }
-
-
 
 export default App;
