@@ -46,7 +46,7 @@ export default class Graph extends Component {
 
   render() {
     return (
-      <canvas id="myChart" width="400" height="400">Test</canvas>
+      <canvas id="myChart" width="200" height="200">Test</canvas>
     );
   }
 }
