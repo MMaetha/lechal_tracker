@@ -12,7 +12,7 @@ export default class Graph extends Component {
         labels: ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5", "Day 6", "Day 7"],
         datasets: [{
           label: 'Numbers of steps',
-          data: [5493, 3121, 4861, 7100, 21281, 3198, 2725],
+          data: [5493, 3121, 4861, 7100, 21281, 3198, 8212],
 
           backgroundColor: [
             'rgba(255, 99, 132, 1)',

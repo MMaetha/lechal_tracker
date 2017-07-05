@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Graph from './graph'
+import InfoBar from './InfoBar'
 
 class Home extends Component {
   render() {
@@ -8,6 +9,7 @@ class Home extends Component {
         <div className="App-header">
           <h1>LECHAL TRACKr</h1>
         </div>
+        <InfoBar />
         <Graph />
       </div>
     )
