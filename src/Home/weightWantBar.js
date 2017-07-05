@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class AgeBar extends Component {
+class WeightWantBar extends Component {
   constructor(props){
     super(props);
 
@@ -11,10 +11,10 @@ class AgeBar extends Component {
     return (
       <div>
         <input onChange={event => this.setState({ term: event.target.value})} />
-        <p>age: {this.state.term} years.</p>
+        <p>target weight: {this.state.term} kg.</p>
       </div>
     )
   }
 }
 
-export default AgeBar;
+export default WeightWantBar;

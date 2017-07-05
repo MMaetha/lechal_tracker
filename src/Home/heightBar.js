@@ -11,7 +11,7 @@ class HeightBar extends Component {
     return (
       <div>
         <input onChange={event => this.setState({ term: event.target.value})} />
-        <p>Value of the input: {this.state.term} cm.</p>
+        <p>current height: {this.state.term} cm.</p>
       </div>
     )
   }
