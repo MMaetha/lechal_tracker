@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import SearchBar from './Searchbar'
+import AgeBar from './ageBar'
+import HeightBar from './heightBar'
+import WeightBar from './weightBar'
 
 class InfoBar extends Component {
   render() {
     return (
       <div>
-        <SearchBar />
-        <SearchBar />
-        <SearchBar />
+        <AgeBar />
+        <HeightBar />
+        <WeightBar />
       </div>
     )
   }
